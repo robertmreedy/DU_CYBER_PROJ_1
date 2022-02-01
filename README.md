@@ -45,7 +45,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet.
 
 Only the local host machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _73.153.180.92_
+- _[IP]_
 
 Machines within the network can only be accessed by the Jump Box docker container.
 - _The Jump Box container (IP Address 20.127.34.116) can SSH into the DVWAs and Elk virtual machine (23.99.138.193)._
@@ -54,7 +54,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box |  No                 | 73.153.180.92        |
+| Jump Box |  No                 | [IP]                 |
 | WEB1/WEB2|  No                 | 20.127.34.116        |
 | ELK      |  No                 | Virtual Network      |
 
